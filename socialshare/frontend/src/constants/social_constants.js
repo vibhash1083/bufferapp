@@ -1,0 +1,24 @@
+export const ADD_FB_POSTS_QUEUE = 'ADD_FB_POSTS_QUEUE';
+export const GET_FB_POSTS_QUEUE = 'GET_FB_POSTS_QUEUE';
+export const DELETE_FB_POSTS_QUEUE = 'DELETE_FB_POSTS_QUEUE';
+export const EDIT_FB_POSTS_QUEUE = 'EDIT_FB_POSTS_QUEUE';
+
+export const GET_FB_USER = 'GET_FB_USER';
+export const DELETE_FB_USERS = 'DELETE_FB_USERS';
+
+export const ADD_TW_POSTS_QUEUE = 'ADD_TW_POSTS_QUEUE';
+export const GET_TW_POSTS_QUEUE = 'GET_TW_POSTS_QUEUE';
+export const DELETE_TW_POSTS_QUEUE = 'DELETE_TW_POSTS_QUEUE';
+export const EDIT_TW_POSTS_QUEUE = 'EDIT_TW_POSTS_QUEUE';
+
+export const GET_TW_USER = 'GET_TW_USER';
+export const DELETE_TW_USERS = 'DELETE_TW_USERS';
+
+export const ADD_FB_SLOTS = 'ADD_FB_SLOTS';
+export const GET_FB_SLOTS = 'GET_FB_SLOTS';
+export const DELETE_FB_SLOTS = 'DELETE_FB_SLOTS';
+
+export const ADD_TW_SLOTS = 'ADD_TW_SLOTS';
+export const GET_TW_SLOTS = 'GET_TW_SLOTS';
+export const DELETE_TW_SLOTS = 'DELETE_TW_SLOTS';
+

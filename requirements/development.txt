@@ -1,0 +1,6 @@
+# Local development dependencies go here
+-r base.txt
+##  Selected applications
+django-debug-panel
+django-debug-toolbar==1.5
+pysqlite

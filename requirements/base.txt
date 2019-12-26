@@ -1,0 +1,55 @@
+# Bleeding edge Django
+django==1.9.2
+
+# Configuration
+django-environ
+djangorestframework-jwt==1.8.0
+djangorestframework==3.5.3
+
+# Forms
+django-braces==1.9.0
+
+# Time zones support
+pytz==2016.6.1
+
+
+django-dynamic-logging
+
+django-health-check
+
+# Others
+django-webpack-loader
+jinja2
+django-cors-headers
+
+# Docs
+git+https://github.com/vioquedu/django-docs.git
+
+authorizeSauce==0.4.1
+amqp==1.4.9
+anyjson==0.3.3
+billiard==3.3.0.23
+celery==3.1.23
+django-celery==3.1.17
+django-custom-user==0.6
+django-model-utils==2.5
+django-rest-swagger==2.1.0
+django-viewsets==0.1.9
+django-widget-tweaks==1.4.1
+djoser==0.5.1
+html5lib==1.0b8
+jsonfield==1.0.3
+pymongo==3.2.2
+pytest==3.0.5
+python-http-client==1.2.3
+requests==2.10.0
+six==1.10.0
+smtpapi==0.3.1
+sqlparse==0.2.1
+suds-jurko==0.6
+
+#Twitter
+tweepy==3.5.0
+
+#Facebook
+facebook-sdk

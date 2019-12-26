@@ -1,0 +1,61 @@
+
+{% load render_bundle from webpack_loader %}
+{% load staticfiles %}
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+
+      {% block html_title %}
+      {% block section_title %}
+      {% endblock %}
+      {{ site_name }}
+      {% endblock %}
+
+    </title>
+    <meta name="description" content="Saket Bhushan">
+    <meta name="author" content="saket@sosio.in">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+  </head>
+  <body>
+
+    <div id="root"></div>
+
+
+    {% render_bundle 'main' %}
+
+    {% csrf_token %}
+
+
+  </body>
+</html>
+
+
